@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.right-0 {
+    right: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right-100 {
+    right: -100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input:checked+.slider {
+    background-color: #18191F;
 }
 
-.App-link {
-  color: #61dafb;
+input:checked+.slider:before {
+    transform: translateX(48px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loader {
+    animation: rotate 3.5s linear infinite;
+}
+
+@keyframes rotate {
+    30% {
+        transform: rotate(220deg);
+    }
+    40% {
+        transform: rotate(450deg);
+        opacity: 1;
+    }
+    75% {
+        transform: rotate(720deg);
+        opacity: 1;
+    }
+    76% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+}
+
+.loader:nth-child(1) {
+    animation-delay: 0.15s;
+}
+
+.loader:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.loader:nth-child(3) {
+    animation-delay: 0.45s;
+}
+
+.loader:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.loader:nth-child(5) {
+    animation-delay: 0.75s;
+}
+
+.loader:nth-child(6) {
+    animation-delay: 0.9s;
+}
+
+@media (max-width:640px) {
+    input:checked+.slider:before {
+        transform: translateX(32px);
+    }
+}
+
+@media (max-width:1024px) {
+    .overflow {
+        overflow: hidden;
+    }
+    .w-unset {
+        width: unset !important;
+    }
 }
