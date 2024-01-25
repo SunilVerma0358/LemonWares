@@ -55,7 +55,7 @@ const RealStory = () => {
           </div>
           <div className="w-full sm:w-6/12 ps-3 sm:ps-[15px] pe-2">
             <div data-aos="fade-up">
-              <div className="px-4 sm:px-[32px] pt-5 sm:pt-[39px] pb-2 sm:pb-[14px] shadow-[0px_10px_20px_0px_#29292a12] rounded-lg  sm:max-w-[445px] mt-6 lg:mt-12 hover:shadow-[0px_5px_5px_2px_#C4C4C4] transition-all duration-300 ease-linear cursor-pointer ">
+              <div className="px-4 sm:px-[32px] pt-5 sm:pt-[45px] pb-2 sm:pb-[14px] shadow-[0px_10px_20px_0px_#29292a12] rounded-lg  sm:max-w-[445px] mt-6 lg:mt-12 hover:shadow-[0px_5px_5px_2px_#C4C4C4] transition-all duration-300 ease-linear cursor-pointer ">
                 <div className="ps-[24px]">
                   <img src={JPNL} alt="cyl" />
                 </div>

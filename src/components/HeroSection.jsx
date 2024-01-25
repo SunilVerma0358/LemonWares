@@ -142,20 +142,24 @@ const HeroSection = () => {
             data-aos="fade-down"
             className=" w-full md:w-6/12 lg:w-5/12 px-3"
           >
-            <div className="max-w-[501px] md:pt-[17px] relative mx-auto md:mx-0">
-              <img className="w-full " src={HeroMain} alt="hero" />
+            <div className="max-w-[501px] md:pt-[17px] relative group mx-auto md:mx-0">
               <img
-                className=" absolute bottom-[29%] left-[-5%]"
+                className="w-full transition-all duration-300 hover:scale-[102%]  "
+                src={HeroMain}
+                alt="hero"
+              />
+              <img
+                className=" absolute bottom-[29%] left-[-5%] group-hover:animate-pulsegardiant"
                 src={heroMainLeft}
                 alt="heromain"
               />
               <img
-                className=" absolute top-[16%] right-[-1%]"
+                className=" absolute top-[16%] right-[-1%] group-hover:animate-pulsegardiant"
                 src={heroMainRighttop}
                 alt="heromain"
               />
               <img
-                className=" absolute bottom-[8%] right-[-1%]"
+                className=" absolute bottom-[8%] right-[-1%] group-hover:animate-pulsegardiantTwo"
                 src={heroMainRightBottom}
                 alt="heromain"
               />

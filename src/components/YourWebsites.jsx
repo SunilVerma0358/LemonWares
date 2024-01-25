@@ -8,13 +8,13 @@ const YourWebsites = () => {
     <>
       <div className="max-w-[1244px] px-3 mx-auto pb-[50px] sm:pb-[70px] md:pb-[90px] lg:pb-[110px]">
         <div className="pt-[38px] sm:pt-[60px] md:pt-[80px] pb-[40px] sm:pb-[66px] md:pb-[88px] w-full bg-[#F7FAFE] rounded-[16px] relative">
-          <div className="sm:max-w-[40px] max-w-[20px] absolute bottom-[15%] left-[-1%]">
+          <div className="sm:max-w-[40px] max-w-[20px] absolute bottom-[20%] left-[-1%]">
             <img className="w-full" src={FirstElipse} alt="img" />
           </div>
-          <div className="sm:max-w-[40px] max-w-[20px] absolute top-[5%] left-[34%]">
+          <div className="sm:max-w-[40px] max-w-[20px] absolute top-0 left-[34%]">
             <img className="w-full" src={SecondElipse} alt="img" />
           </div>
-          <div className=" sm:max-w-[72px] max-w-[37px] absolute right-[-1%] bottom-[7%]">
+          <div className=" sm:max-w-[72px] max-w-[37px] absolute right-[-1%] bottom-[9%]">
             <img className="w-full" src={ThreeElipse} alt="img" />
           </div>
           <h2 className=" font-Poppins font-semibold text-[#2E2E2E] text-[38px] sm:text-[48px] md:text-[56px] lg:text-[64px] leading-[137%] max-w-[1024px] mx-auto text-center">

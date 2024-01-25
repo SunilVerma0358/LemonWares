@@ -114,7 +114,7 @@ const LemonNav = () => {
               </a>
               <a
                 href="tel:+2349067322844"
-                className=" font-Poppins font-semibold text-[#000] text-[15px] leading-normal flex items-center gap-[6px] lg:pe-[52px] relative before:w-0 before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:left-7 before:bottom-[-10%] before:duration-200 before:transition-all before:ease-linear before:hover:w-[77%] "
+                className=" font-Poppins font-semibold text-[#000] text-[15px] leading-normal flex items-center gap-[6px] lg:pe-[52px] relative before:w-0 before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:left-7 before:bottom-[-10%] before:duration-200 before:transition-all before:ease-linear before:hover:w-[62%] "
               >
                 <span>
                   <svg
