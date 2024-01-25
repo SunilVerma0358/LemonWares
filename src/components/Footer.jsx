@@ -72,7 +72,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <p className=" font-Inter font-noraml text-base text-[#fff] leading-[200%] ">
+          <p className=" font-Inter font-noraml text-[14px] sm:text-base text-[#fff] leading-[200%] ">
             Built by Jeremiah with love in Lagos. Copyright {year}
           </p>
         </div>
