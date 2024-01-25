@@ -1,5 +1,6 @@
 import React from "react";
 import footerLogo from "../assets/images/footerLogo.webp";
+import heart from "../assets/iconSvg/heart.svg";
 
 import { FooterMap } from "./common/Helper";
 const Footer = () => {
@@ -72,8 +73,12 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <p className=" font-Inter font-noraml text-[14px] sm:text-base text-[#fff] leading-[200%] ">
-            Built by Jeremiah with love in Lagos. Copyright {year}
+          <p className=" font-Inter font-noraml text-[11px] min-[350px]:text-[12px] sm:text-base text-[#fff] gap-[2px] sm:gap-[4px] leading-[200%] flex items-center ">
+            Built by Jeremiah with{" "}
+            <span>
+              <img src={heart} alt="heart" className=" sm:w-[24px] w-[14px]" />
+            </span>{" "}
+            love in Lagos. Copyright {year}
           </p>
         </div>
       </div>

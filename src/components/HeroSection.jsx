@@ -62,7 +62,7 @@ const HeroSection = () => {
               </button>
             </div>
             {first === "Tab1" && (
-              <div className="pt-5 sm:pt-6 lg:pt-[30px]">
+              <div className="pt-5 sm:pt-6 lg:pt-[28px]">
                 <h1 className=" font-Poppins font-bold text-[#2E2E2E] text-[34px] sm:text-[46px] lg:text-[56px] xl:text-[64px] leading-[121.094%]">
                   Premium Web Hosting for Your Website
                 </h1>
@@ -81,7 +81,7 @@ const HeroSection = () => {
               </div>
             )}
             {first === "Tab2" && (
-              <div className="pt-5 sm:pt-6 lg:pt-[30px]">
+              <div className="pt-5 sm:pt-6 lg:pt-[28px]">
                 <h1 className=" font-Poppins font-bold text-[#2E2E2E] text-[34px] sm:text-[46px]  lg:text-[56px] xl:text-[64px] leading-[121.094%]">
                   Premium Web Domain for Your Website
                 </h1>
@@ -100,7 +100,7 @@ const HeroSection = () => {
               </div>
             )}
             {first === "Tab3" && (
-              <div className="pt-5 sm:pt-6 lg:pt-[30px]">
+              <div className="pt-5 sm:pt-6 lg:pt-[28px]">
                 <h1 className=" font-Poppins font-bold text-[#2E2E2E] text-[34px] sm:text-[46px]  lg:text-[56px] xl:text-[64px] leading-[121.094%]">
                   Premium Web SEO for Your Website
                 </h1>
@@ -119,7 +119,7 @@ const HeroSection = () => {
               </div>
             )}
             {first === "Tab4" && (
-              <div className="pt-5 sm:pt-6 lg:pt-[30px]">
+              <div className="pt-5 sm:pt-6 lg:pt-[28px]">
                 <h1 className=" font-Poppins font-bold text-[#2E2E2E] text-[34px] sm:text-[46px] lg:text-[56px] xl:text-[64px] leading-[121.094%]">
                   Premium Web Email for Your Website
                 </h1>

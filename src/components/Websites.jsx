@@ -44,7 +44,7 @@ const Websites = () => {
               onClick={() => ChangeTab("Tab1")}
               className={`${
                 custom === "Tab1"
-                  ? " relative  before:h-[4px]  before:bg-[#B00000] before:max-w-[443px]  before:absolute before:left-0 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:w-full"
+                  ? " relative  before:h-[4px]  before:bg-[#B00000] before:max-w-[443px]  before:absolute before:left-0 before:bottom-[-8%] before:duration-300 before:transition-all before:ease-linear before:w-full"
                   : ""
               } font-Poppins font-semibold text-[#000] text-[22px] sm:text-[26px] md:text-[30px] w-[50%] flex justify-center leading-[140%] max-w-[443px]  mx-auto  `}
             >
@@ -55,7 +55,7 @@ const Websites = () => {
               onClick={() => ChangeTab("Tab2")}
               className={`${
                 custom === "Tab2"
-                  ? "relative before:h-[4px]  before:bg-[#B00000] before:max-w-[443px]  before:absolute before:left-0 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:w-full "
+                  ? "relative before:h-[4px]  before:bg-[#B00000] before:max-w-[443px]  before:absolute before:left-0 before:bottom-[-8%] before:duration-300 before:transition-all before:ease-linear before:w-full "
                   : ""
               } font-Poppins font-semibold text-[#000] text-[22px] sm:text-[26px] md:text-[30px] leading-[140%] w-[50%] flex justify-center  `}
             >
@@ -87,7 +87,7 @@ const Websites = () => {
                     <p className=" font-Poppins font-light text-[12px] sm:text-[14px] text-[#000] leading-[100%] pt-[11px]">
                       Per month
                     </p>
-                    <button className=" font-Poppins font-semibold text-[#000] text-[12px] sm:text-[14px] leading-[228%] py-[9px] ps-[56px] pe-[56px] lg:pe-[58px] mt-[20px] sm:mt-[28px] md:mt-[35px] border-2 border-[#000] rounded-[12px] transition-all ease-linear duration-300 hover:text-[#fff] hover:border-transparent relative  isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#B00000] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 ">
+                    <button className=" font-Poppins font-semibold text-[#000] text-[12px] sm:text-[14px] leading-[228%] py-[9px] ps-[53px] md:ps-[56px] pe-[53px] md:pe-[56px] lg:pe-[58px] mt-[20px] sm:mt-[28px] md:mt-[35px] border-2 border-[#000] rounded-[12px] transition-all ease-linear duration-300 hover:text-[#fff] hover:border-transparent relative  isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#B00000] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 ">
                       Choose this Plan
                     </button>
                     <p className=" font-Inter font-bold text-[#808080] text-[14px] sm:text-base leading-[150%] lining-nums  proportional-nums  flex items-center gap-6 pt-2 sm:pt-[15px]">
@@ -174,7 +174,7 @@ const Websites = () => {
                     <p className=" font-Poppins font-light text-[12px] sm:text-[14px] text-[#000] leading-[100%] pt-[11px]">
                       Per month
                     </p>
-                    <button className=" font-Poppins font-semibold text-[#000] text-[12px] sm:text-[14px] leading-[228%] py-[9px] ps-[56px] pe-[56px] lg:pe-[58px] mt-[20px] sm:mt-[28px] md:mt-[35px] border-2 border-[#000] rounded-[12px] transition-all ease-linear duration-300 hover:text-[#fff] hover:border-transparent relative  isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#B00000] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 ">
+                    <button className=" font-Poppins font-semibold text-[#000] text-[12px] sm:text-[14px] leading-[228%] py-[9px] ps-[53px] md:ps-[56px] pe-[53px] md:pe-[56px] lg:pe-[58px] mt-[20px] sm:mt-[28px] md:mt-[35px] border-2 border-[#000] rounded-[12px] transition-all ease-linear duration-300 hover:text-[#fff] hover:border-transparent relative  isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#B00000] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 ">
                       Choose this Plan
                     </button>
                     <p className=" font-Inter font-bold text-[#808080] text-[14px] sm:text-base leading-[150%] lining-nums  proportional-nums  flex items-center gap-6 pt-2 sm:pt-[15px]">
