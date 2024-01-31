@@ -78,7 +78,7 @@ const Footer = () => {
             <span>
               <img src={heart} alt="heart" className=" sm:w-[24px] w-[14px]" />
             </span>{" "}
-            love in Lagos. Copyright {year}
+            in Lagos. Copyright {year}
           </p>
         </div>
       </div>

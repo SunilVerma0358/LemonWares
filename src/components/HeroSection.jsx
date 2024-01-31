@@ -19,7 +19,7 @@ const HeroSection = () => {
             data-aos="fade-up"
             className=" w-full md:w-6/12 lg:w-7/12 px-3 pt-6 md:pt-0"
           >
-            <div className="relative before:w-[100%] before:h-[1px]  before:bg-[#E5E5E5] before:absolute before:left-0 before:bottom-[-9%] before:max-w-[242px]">
+            <div className="relative before:w-[100%] before:h-[1px]  before:bg-[#E5E5E5] before:absolute before:left-0 before:bottom-[-10%] before:max-w-[242px]">
               <button
                 onClick={() => ChangeTab("Tab1")}
                 className={`${
