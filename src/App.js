@@ -26,6 +26,7 @@ function App() {
       once: true,
     });
   }, []);
+
   return (
     <>
       <div>
@@ -33,16 +34,15 @@ function App() {
         {Loader ? (
           <div>
             {" "}
-            <Preloader />{" "}
+            <Preloader />
           </div>
         ) : (
           <div>
-            {" "}
             <HeroSection /> <Hosting /> <Websites /> <RealStory />
             <SeverOverWebsites />
             <YourWebsites />
             <Footer />
-            <BackToTop />{" "}
+            <BackToTop />
           </div>
         )}{" "}
       </div>{" "}

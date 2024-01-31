@@ -19,12 +19,12 @@ const HeroSection = () => {
             data-aos="fade-up"
             className=" w-full md:w-6/12 lg:w-7/12 px-3 pt-6 md:pt-0"
           >
-            <div className="relative before:w-[100%] before:h-[2px]  before:bg-[#E5E5E5] before:absolute before:left-0 before:bottom-[-9%] before:max-w-[242px]">
+            <div className="relative before:w-[100%] before:h-[1px]  before:bg-[#E5E5E5] before:absolute before:left-0 before:bottom-[-9%] before:max-w-[242px]">
               <button
                 onClick={() => ChangeTab("Tab1")}
                 className={`${
                   first === "Tab1"
-                    ? "relative  before:h-[2px]  before:bg-[#B00000] before:absolute before:left-1 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:w-[77%] text-[#B00000] transition-all duration-300 ease-linear"
+                    ? "relative  before:h-[1px]  before:bg-[#B00000] before:absolute before:left-1 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:w-[77%] text-[#B00000] transition-all duration-300 ease-linear"
                     : "text-[#d6d4d4e0]"
                 } font-Poppins font-semibold text-[15px] leading-normal  `}
               >
@@ -34,9 +34,9 @@ const HeroSection = () => {
                 onClick={() => ChangeTab("Tab2")}
                 className={`${
                   first === "Tab2"
-                    ? "relative  before:h-[2px]  before:bg-[#B00000] before:absolute before:left-1 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:w-[77%] text-[#B00000] transition-all duration-300 ease-linear"
+                    ? "relative  before:h-[1px]  before:bg-[#B00000] before:absolute before:left-1 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:w-[77%] text-[#B00000] transition-all duration-300 ease-linear"
                     : " text-[#d6d4d4e0]"
-                } font-Poppins font-semibold text-[15px]  leading-normal   ms-[23px]`}
+                } font-Poppins font-semibold text-[15px]  leading-normal  ms-[23px]`}
               >
                 Domain
               </button>
@@ -44,7 +44,7 @@ const HeroSection = () => {
                 onClick={() => ChangeTab("Tab3")}
                 className={`${
                   first === "Tab3"
-                    ? "relative  before:h-[2px]  before:bg-[#B00000] before:absolute before:left-1 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:w-[77%] text-[#B00000] transition-all duration-300 ease-linear"
+                    ? "relative  before:h-[1px]  before:bg-[#B00000] before:absolute before:left-1 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:w-[77%] text-[#B00000] transition-all duration-300 ease-linear"
                     : "text-[#d6d4d4e0]"
                 } font-Poppins font-semibold text-[15px]  leading-normal  ms-[18px]`}
               >
@@ -54,7 +54,7 @@ const HeroSection = () => {
                 onClick={() => ChangeTab("Tab4")}
                 className={`${
                   first === "Tab4"
-                    ? "relative  before:h-[2px]  before:bg-[#B00000] before:absolute before:left-1 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:w-[77%] text-[#B00000] transition-all duration-300 ease-linear"
+                    ? "relative  before:h-[1px]  before:bg-[#B00000] before:absolute before:left-1 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:w-[77%] text-[#B00000] transition-all duration-300 ease-linear"
                     : "text-[#d6d4d4e0]"
                 } font-Poppins font-semibold text-[15px]  leading-normal  ms-[15px]`}
               >
@@ -70,7 +70,7 @@ const HeroSection = () => {
                   Blazing fast web hosting for individuals and businesses of all
                   sizes backed by 24x7x365 Support.
                 </p>
-                <div className="flex gap-6 items-center pt-[30px] sm:pt-[40px]   lg:pt-[60px]">
+                <div className="flex gap-6 items-center pt-[30px] sm:pt-[40px] lg:pt-[60px]">
                   <button className=" font-Poppins font-normal text-[#fff] text-[12px] sm:text-[14px] leading-[171%]  bg-[#B00000] rounded-[8px]  shadow-[0px_0px_64px_0px_#b000004d] p-3  transition-all ease-linear duration-300 hover:text-[#000] border border-transparent hover:border-[#000] relative  hover:shadow-[0px_0px_64px_0px_transparent] isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#fff] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  ">
                     Create an Account
                   </button>

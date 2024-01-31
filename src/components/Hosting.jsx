@@ -11,7 +11,7 @@ const Hosting = () => {
   return (
     <>
       <div id="about" className="max-w-[1284px] mx-auto px-3">
-        <div className="flex flex-row  -mx-3 flex-wrap">
+        <div className="flex flex-row  -mx-3 flex-wrap items-center ">
           <div data-aos="fade-down" className="w-full  lg:w-6/12 px-3">
             <h2 className=" font-Inter font-extrabold text-[#18191F] text-[30px] sm:text-[40px] md:text-[48px] leading-[133.333%]">
               True Cloud Web Hosting
@@ -50,21 +50,21 @@ const Hosting = () => {
                   alt="Panel"
                 />
               </div>
-              <div className="w-4/12 px-5 pt-[24px] sm:pt-[40px] md:pt-[50px]">
+              <div className="w-4/12 px-5 pt-[24px] sm:pt-[30px] lg:pt-[50px]">
                 <img
                   className="w-full  transition-all duration-300 hover:scale-105  cursor-pointer pt-[13px]  "
                   src={fourth}
                   alt="fourth"
                 />
               </div>
-              <div className="w-4/12 px-5 pt-[24px] sm:pt-[40px] md:pt-[50px]">
+              <div className="w-4/12 px-5 pt-[24px] sm:pt-[30px] lg:pt-[50px]">
                 <img
                   className="w-full  transition-all duration-300 hover:scale-105  cursor-pointer "
                   src={Wordpress}
                   alt="Panel"
                 />
               </div>
-              <div className="w-4/12 px-5 pt-[24px] sm:pt-[40px] md:pt-[50px]">
+              <div className="w-4/12 px-5 pt-[24px] sm:pt-[30px] lg:pt-[50px]">
                 <img
                   className="w-full  transition-all duration-300 hover:scale-105  cursor-pointer pb-[12px]"
                   src={Cloud}

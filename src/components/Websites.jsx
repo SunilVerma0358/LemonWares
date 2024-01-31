@@ -64,7 +64,7 @@ const Websites = () => {
           </div>
         </div>
         {custom === "Tab1" && (
-          <div className="flex flex-row flex-wrap -mx-3 pt-[20px] sm:pt-[40px] md:pt-[60px]  justify-center">
+          <div className="flex flex-row flex-wrap -mx-3 pt-[10px] sm:pt-[40px] md:pt-[60px]  justify-center">
             {Basic.map((props, index) => (
               <div
                 key={index}
@@ -87,9 +87,11 @@ const Websites = () => {
                     <p className=" font-Poppins font-light text-[12px] sm:text-[14px] text-[#000] leading-[100%] pt-[11px]">
                       Per month
                     </p>
-                    <button className=" font-Poppins font-semibold text-[#000] text-[12px] sm:text-[14px] leading-[228%] py-[9px] ps-[53px] md:ps-[56px] pe-[53px] md:pe-[56px] lg:pe-[58px] mt-[20px] sm:mt-[28px] md:mt-[35px] border-2 border-[#000] rounded-[12px] transition-all ease-linear duration-300 hover:text-[#fff] hover:border-transparent relative  isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#B00000] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 ">
-                      Choose this Plan
-                    </button>
+                    <div className="flex justify-center sm:justify-start">
+                      <button className=" font-Poppins font-semibold text-[#000] text-[12px] sm:text-[14px] leading-[228%] py-[9px] ps-[53px] md:ps-[56px] pe-[53px] md:pe-[56px] lg:pe-[58px] mt-[20px] sm:mt-[28px] md:mt-[35px] border-2 border-[#000] rounded-[12px] transition-all ease-linear duration-300 hover:text-[#fff] hover:border-transparent relative  isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#B00000] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 ">
+                        Choose this Plan
+                      </button>
+                    </div>
                     <p className=" font-Inter font-bold text-[#808080] text-[14px] sm:text-base leading-[150%] lining-nums  proportional-nums  flex items-center gap-6 pt-2 sm:pt-[15px]">
                       <span>
                         <img src={correct} alt="correct" />
@@ -151,7 +153,7 @@ const Websites = () => {
           </div>
         )}
         {custom === "Tab2" && (
-          <div className="flex flex-row flex-wrap -mx-3 pt-[20px] sm:pt-[40px] md:pt-[60px]  justify-center">
+          <div className="flex flex-row flex-wrap -mx-3 pt-[10px] sm:pt-[40px] md:pt-[60px]  justify-center">
             {Basic.map((props, index) => (
               <div
                 key={index}
@@ -174,9 +176,11 @@ const Websites = () => {
                     <p className=" font-Poppins font-light text-[12px] sm:text-[14px] text-[#000] leading-[100%] pt-[11px]">
                       Per month
                     </p>
-                    <button className=" font-Poppins font-semibold text-[#000] text-[12px] sm:text-[14px] leading-[228%] py-[9px] ps-[53px] md:ps-[56px] pe-[53px] md:pe-[56px] lg:pe-[58px] mt-[20px] sm:mt-[28px] md:mt-[35px] border-2 border-[#000] rounded-[12px] transition-all ease-linear duration-300 hover:text-[#fff] hover:border-transparent relative  isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#B00000] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 ">
-                      Choose this Plan
-                    </button>
+                    <div className="flex justify-center sm:justify-start ">
+                      <button className=" font-Poppins font-semibold text-[#000] text-[12px] sm:text-[14px] leading-[228%] py-[9px] ps-[53px] md:ps-[56px] pe-[53px] md:pe-[56px] lg:pe-[58px] mt-[20px] sm:mt-[28px] md:mt-[35px] flex border-2 border-[#000] rounded-[12px] transition-all ease-linear duration-300 hover:text-[#fff] hover:border-transparent relative  isolation-auto z-10 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#B00000] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700">
+                        Choose this Plan
+                      </button>
+                    </div>
                     <p className=" font-Inter font-bold text-[#808080] text-[14px] sm:text-base leading-[150%] lining-nums  proportional-nums  flex items-center gap-6 pt-2 sm:pt-[15px]">
                       <span>
                         <img src={correct} alt="correct" />

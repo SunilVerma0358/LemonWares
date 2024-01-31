@@ -104,7 +104,7 @@ const LemonNav = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center gap-5 lg:gap-0">
+          <div className="flex items-center gap-8 lg:gap-0">
             <div className="hidden sm:flex items-center gap-[62px]">
               <a
                 href="#Footer"
@@ -149,13 +149,13 @@ const LemonNav = () => {
                 <div className="flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer  ">
                   {" "}
                   <span className="bg-[#000] w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300 rotate-[53deg] -bottom-[11px]"></span>
-                  <span className="bg-[#000] w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300 -rotate-45 bottom-2"></span>
+                  <span className="bg-[#000] w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300 -rotate-[56deg] bottom-[8px]"></span>
                 </div>
               ) : (
                 <div className=" flex lg:hidden flex-col  z-50 justify-between w-[24px] h-[24px] cursor-pointer relative ">
                   {" "}
                   <span className="bg-[#000] w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300"></span>
-                  <span className="bg-[#000]  w-2/3 h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300"></span>
+                  <span className="bg-[#000]  w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300"></span>
                   <span className="bg-[#000] w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300"></span>
                 </div>
               )}
